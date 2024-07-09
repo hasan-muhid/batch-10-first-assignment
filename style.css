@@ -231,3 +231,49 @@ body{
     }
 /* development area design end*/
 
+/* Inspiration area design start*/
+    #inspiration{
+        width: 1140px;
+        height: 775px;
+        margin: 0 auto;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        padding-top: 70px;
+        padding-bottom: 70px;        
+    }
+    #inspiration .text-content h1{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 37px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    #inspiration .text-content p{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;opacity: 0.7;
+        width: 852px;
+        margin: 0 auto;        
+    }
+    #inspiration .video{
+
+        margin-top: 50px;
+        width: 1140px;
+        height: 614px;
+        border: 2px solid rgba(9, 12, 20, 0.243);
+        border-radius: 15px;
+    }
+    #inspiration .video iframe{
+        margin-left:30px ;
+        margin-right:20px ;
+        margin-top:30px ;
+        margin-bottom:20px ;
+
+    }
+/* Inspiration area design end*/
