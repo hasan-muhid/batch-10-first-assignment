@@ -64,7 +64,7 @@ body{
 /* development area design start*/
     #development{
         width: 1140px;
-        height: 1393px;
+        height: auto;
         border-radius: 16px;
         background: rgba(13, 19, 33, 0.02);
         margin: 0 auto;
@@ -96,7 +96,8 @@ body{
 
     }
 
-    .dev-section1 {
+    
+        .dev-section1 {
         width: 946px;
         height: 450px;
         display: flex;
@@ -106,6 +107,8 @@ body{
         background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
         padding-left: 40px;
         padding-right: 40px;
+        margin: 0 auto;
+        margin-top: 40px;
 
     }
     .dev-section1 .dev-1-left{
@@ -150,5 +153,81 @@ body{
         text-align: end;
     }
 
+    .dev-section2{
+        width: 946px;
+        height: 450px;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 16px;
+        border-radius: 16px;
+        background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+    }
+    .dev-section2 .dev-2-left{
+        width: 35%;
+    }
+    .dev-section2 .dev-2-right{
+        width: 65%;
+    }
+    .dev-2-right h2{
+        color: rgba(13, 19, 33, 0.7);
+        font-family: Azeret Mono;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+
+    }
+    .dev-2-right p{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+
+    }
+
+    .dev-section3{
+        width: 946px;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 16px;
+        background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); 255, 255, 0) 100%);
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0 auto;
+        margin-top: 40px;        
+        
+    }
+    .dev-3-left{
+        width: 65%;
+    }
+    .dev-3-left h2{
+        color: rgba(13, 19, 33, 0.7);
+        font-family: Azeret Mono;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;        
+    }
+    .dev-3-left p{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;   
+    }
 /* development area design end*/
 
