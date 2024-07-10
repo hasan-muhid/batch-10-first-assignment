@@ -538,3 +538,40 @@ input::placeholder {
 
 
 /* support area design end*/
+/* Fotter area design start*/
+footer{
+    max-width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer-text{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    gap: 30px;
+}
+footer ul li{
+    list-style: none;
+}
+
+/* Fotter area design end*/
