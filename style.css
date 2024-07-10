@@ -19,6 +19,8 @@ body{
     align-items: center;
     
 }
+
+
 .hero-content{
     width: 998px;
     height: 582px;
@@ -278,3 +280,152 @@ body{
 
     }
 /* Inspiration area design end*/
+/* Current-skill area design start*/
+
+    #current-skill{
+        width: 1140px;
+        height: auto;
+        border-radius: 16px;
+        margin: 0 auto;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+}
+#current-skill .content h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;    
+
+}
+#current-skill .content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 852px;
+    margin: 0 auto;
+
+}
+.current-skill-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+.html-box{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 30px;
+}
+.css-box{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 30px;
+}
+.js-box{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 30px;
+}
+.html-box h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+.html-box  p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+.html-box button{
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    background-color:transparent;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.css-box h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+.css-box p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;      
+}
+.css-box button{
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    background-color:transparent;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+    
+.js-box h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+.js-box p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;      
+}
+.js-box button{
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    background-color:transparent;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+
+/* Current-skill area design end*/
