@@ -8,7 +8,7 @@ body {
 /* hero area design start */
 #hero-banner {
     max-width: 1440px;
-    height: 800px;
+    height: 750px;
     margin: 0 auto;
     background: url(assets/Hero-bg.png);
     background-position: center;
@@ -37,7 +37,7 @@ body {
     font-family: Azeret Mono;
     font-size: 41px;
     font-weight: 800;
-    line-height: 63px;
+    line-height: 61px;
     letter-spacing: 0%;
     text-align: center;
 }
@@ -572,6 +572,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 
 }
 
